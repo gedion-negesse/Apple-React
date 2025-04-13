@@ -1,0 +1,43 @@
+{
+  "products": [
+    {
+      "product_id": 1,
+      "product_name": "iPhone SE",
+      "product_url": "https://www.apple.com/in/iphone-se/",
+      "price_id": 1,
+      "Starting_price": "$399",
+      "Price_range": "From $9.54/mo. or $229 with trade-in.",
+      "description_id": 1,
+      "Product_brief_description": "Lots to love. Less to spend.",
+      "Product_description": "iPhone SE packs our most powerful chip into our most popular size at our most affordable price",
+      "Product_img": "https://www.evangadi.com/courses/MERN-Stack/misc/iphones/i3.JPG",
+      "Product_link": "https://www.apple.com/in/iphone-se/"
+    },
+    {
+      "product_id": 2,
+      "product_name": "iPhone 11",
+      "product_url": "https://www.apple.com/in/iphone-11/",
+      "price_id": 2,
+      "Starting_price": "$449",
+      "Price_range": "From $18.70/mo. or $449 with trade-in.",
+      "description_id": 2,
+      "Product_brief_description": "Lots to love. Less to spend.",
+      "Product_description": "You can either pay for your new iPhone in full or pay monthly with carrier financing, iPhone Payments, the iPhone Upgrade Program, and now Apple Card Monthly Installments",
+      "Product_img": "https://cdn.dxomark.com/wp-content/uploads/medias/post-54718/Apple-iPhone-11-Pro-Max-Midnight-Green-frontimage-1.jpg",
+      "Product_link": "https://www.apple.com/in/iphone-11/"
+    },
+    {
+      "product_id": 3,
+      "product_name": "iPhone 11 Pro",
+      "product_url": "https://support.apple.com/en-in/111879",
+      "price_id": 3,
+      "Starting_price": "$679",
+      "Price_range": "From $28.29/mo. or $679 with trade-in.",
+      "description_id": 3,
+      "Product_brief_description": "Pro cameras. Pro display. Pro performance.",
+      "Product_description": "A transformative triple‑camera system that adds tons of capability without complexity. An unprecedented leap in battery life. ",
+      "Product_img": "https://www.evangadi.com/courses/MERN-Stack/misc/iphones/i1.JPG",
+      "Product_link": "https://support.apple.com/en-in/111879"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+
+     Steps to follow to API integration for youtube
+   /************************************************/  
+
+   1.api integration is the program connecting to programs together to share info.
+    API(application Programing Interface)
+
+   2. so how do we intergrat oure websit to be intgreated with other website for instance youtube.
+
+      steps to follow api integration with you tube
+     /*********************************************/
+ API in general is a documentaion that explaines how our program is working and what to follow to accesse the data from our data base and also it is explains the rights and resposibilities of the program or data you share
+    
+    1.the first steps we need to accesse to have vedio from the youtube
+        -we need the titile of the vedio
+        -we need the video thumnail
+        -we need the URL of the video
+        -we need the video Index
+        -we neeed the video description
+  exapmle-        <video>
+
+  -          <titile> abcedeknke<titile>
+            <thumnail> http// www.ypypoy <thumnail>
+               <img>  image   <img>
+            <descrition>lorm epsinfmndknfkd <descritpion>
+                   <video></video>
+
+how do wwe accesse all this information from the you tub ???
+
+
+    2. providing API data is in JSON format (java script object notation)
+
+      JSON is jus a text file that looks like a java script object format
+       why  json b/c it is ease to convert to object and easily manipulat and also it can be used tby all the programing langusges almost
+
+            .json is afetch method
+             stringfy array method
+
+
+       let product [
+          proddcut1 :{
+                         id:1
+                         nam:"kgdkjg"
+                         type:"jsfjgsk"
+}
+           product2{
+
+                        id:2
+                        name:" kkasd"
+                          type:"jkjlgw"
+}
+
+       ]
+
+so how do we get JSON information from you tube?
+       
+
+       API key:-
+           how to creat API key in you tube
+    search on google like youtube Api documenytion then go to
+
+
+           step1:- developers.google.com then go to
+
+           go to http://consol.cloud.gooogle.com 
+
+           step2:- creat a project what we going to do with it
+               click project , new project , give name to project
+
+          step3:  creat an API key
+                  -go to API and services MainSection
+                  -go to the library MainSection
+                  -scroll down until we get the youtube MainSection
+                  -click on youtube data API v3
+                  -enable your API
+                  -creat credentials
+                  -select public data tab
+                    -select youtube data v3API
+                    -web Browserpublic data accessecopy your API key

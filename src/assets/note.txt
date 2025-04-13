@@ -1,0 +1,76 @@
+
+                STEPS TO IMPLEMENT REACT ROUTER DOM
+           /*******************************************/
+
+1.  we have to instal React Router Dom   from the npm
+          BrowserRouter
+
+    import { BrowserRouter } from "react-router-dom";
+
+
+2. import the react Router dome on the Index.Jsx file and wrappe teh App.jsx with Browser Router like this
+
+    <StrictMode>
+        <BrowserRouter>
+           <App />
+        </BrowserRouter>
+    </StrictMode>
+
+3.import the Routes from the react router dome in the app.jsx file like this
+              Routes, Route     
+
+    import { Routes, Route } from "react-router-dom";
+
+4.wrappe all the react dependent components with routes fisrt and with rout under it like below    
+
+           <Route path="" element={ }
+
+     <Routes>
+        <Route path="/" element={<MainSection />} />
+
+        <Route path="mac" element={<Mac />} />
+     </Routes>     
+
+5. change all the anchor tags with link after importing the Link from the react router dome like usually on the header.. below
+              
+              Link
+
+     import { Link, Links } from "react-router-dom"; and
+
+     <Link className="navbar-brand mx-auto" to="#">
+            <img src={logo} />
+     </Link>
+
+6. change all the hrfe by the "to" like below
+         
+         to
+
+          to="#">
+
+
+7. Shared layouts its like the pages all the components share them like the header and the footer pages are shared by al  the components any time any components is dispalyed the header and the footer also desplayed eith it , this is we call them shared components.. so we have to put all the shared components together in a single component.  and we iport them to the new component like below
+
+8.we have to import the out Outelate from the React router dome on the sahred lay out component and we in sert it in between the shared components like below
+        
+           import {Outlte} from "react-router-Dom"  
+
+                  and
+
+import HeaderSection from "./HeaderSection/ HeaderSection";
+
+import FooterSection from "./FooterSection/FooterSection";
+
+
+function Sharedlayout() {
+  return (
+    <>
+      <HeaderSection />
+         <Outlte/>
+      <FooterSection />
+    </>
+  );
+}
+
+export default Sharedlayout;
+
+
