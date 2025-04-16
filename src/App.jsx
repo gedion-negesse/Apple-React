@@ -44,7 +44,8 @@ function App() {
           <Route path="support" element={<Support />} />
           <Route path="cart" element={<Cart />} />
 
-          <Route path="*" element={<Four04 />} />
+          {/*<Route path="*" element={<Four04 />} />*/}
+          <Route path="*" element={<MainSection />} />
         </Route>
       </Routes>
     </>
