@@ -46,7 +46,7 @@ img {
 .footer-wrapper {
   background-color: #f5f5f7;
   color: #86868b;
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 .footer-wrapper ul {
   list-style: none;
@@ -54,6 +54,7 @@ img {
   padding-inline-start: 0px;
 }
 .footer-wrapper ul a {
+  text-decoration: none;
   color: #515154;
 }
 .my-apple-wrapper {
@@ -90,7 +91,7 @@ img {
 }
 
 .footer-links-wrapper h3 {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 600;
   color: #1d1d1f;
 }
@@ -364,16 +365,16 @@ img {
   box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.15);
 }*/
 
-/* Video Thumbnail 
+/*Video Thumbnail 
 .videoThumbnail {
-  width: 100%;
+  width: auto;
   height: auto;
   position: relative;
   overflow: hidden;
 }
 
 .videoThumbnail img {
-  width: 100%;
+  width: auto;
   height: auto;
   display: block;
   border-bottom: 1px solid #ddd;
@@ -381,8 +382,8 @@ img {
 }
 
 .videoThumbnail img:hover {
-  opacity: 0.9;
-}
+  opacity: 0.95;
+}*/
 
 /* Video Info 
 .videoInfoWrapper {
@@ -400,14 +401,84 @@ img {
 
 .vidoeTitle a:hover {
   color: #0056b3;
-}
+}*/
 
-.videoDesc {
+/*.videoDesc {
   font-size: 0.9rem;
   color: #666;
   margin-top: 0.5rem;
   line-height: 1.4;
 }*/
+/*.videoDesc {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}*/
+
+/*.videoThumbnail {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* or 4 / 3 depending on your layout 
+  overflow: hidden;
+  border-bottom: 1px solid #ddd;
+}
+
+.videoThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Crop the image to fill the box 
+  display: block;
+  transition: opacity 0.3s ease;
+}*/
+
+/*.videoThumbnail {
+  width: auto; /* Set a fixed width 
+  height: auto; /* Set a fixed height 
+  position: relative;
+  overflow: hidden;
+}
+
+.videoThumbnail img {
+  width: 100%; /* Ensure the image fills the container 
+  height: 100%; /* Ensure uniform height 
+  object-fit: cover; /* Keeps the aspect ratio consistent 
+  display: block;
+  border-bottom: 1px solid #ddd;
+  transition: opacity 0.3s ease;
+}*/
+
+.videoThumbnail {
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+
+.videoThumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.videoDesc {
+  font-size: 1rem;
+  color: #667;
+  margin-top: 0.5rem;
+  line-height: 1.4;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Change to number of lines you want */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 /*Media Query*/
 /* Footer */
@@ -426,13 +497,6 @@ img {
     position: absolute;
     right: 25px;
   }
-
-  /*Vedio section*/
-
-  /* .singleVideoWrapper {
-    max-width: 90%;
-    margin: 0 auto;
-  }*/
 }
 @media (min-width: 768px) {
   /*Nav bar*/
@@ -452,15 +516,6 @@ img {
   .sixth-heghlight-wrapper .right-side-wrapper .right-side-container {
     margin: 5px 10px 10px 5px;
   }
-  /*.sixth-heghlight-wrapper .links-wrapper {
-     max-width: 500px;
-  }*/
-
-  /*Vedio section*/
-  /*.singleVideoWrapper {
-    max-width: 90%;
-    margin: 0 auto;
-  }*/
 
   /*Fifth section*/
   .fifth-heghlight-wrapper .left-side-wrapper .left-side-container {
@@ -516,8 +571,8 @@ img {
     margin-top: 10px;
   }
   /*vedio//////*/
-  /*.singleVideoWrapper {
-    max-width: 80%;
+  .singleVideoWrapper {
+    max-width: 95%;
     margin: 0 auto;
-  }*/
+  }
 }

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import styles from "./style.module.css";
+import "./style.module.css";
 function YouTubeVedio() {
   const [youTubeVideos, setYouTubeVideos] = useState([]);
 
@@ -20,7 +20,6 @@ function YouTubeVedio() {
         <div className="row h-100 align-items-center justify-content-center text-center">
           <div className="col-12">
             <div className="title-wraper video-title-wrapper">
-              <br />
               <br />
               Latest Videos <br />
               <br />
